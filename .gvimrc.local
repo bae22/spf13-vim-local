@@ -1,0 +1,5 @@
+" Don't open NerdTree at startup (part of NerdTree tabs)
+let g:nerdtree_tabs_open_on_gui_startup=0
+
+" Set guifont back to default
+set guifont=
