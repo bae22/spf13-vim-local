@@ -1,4 +1,15 @@
-#!/bin/env sh
+#!/bin/bash
+
+### Added by bae22 - local config ####
+endpath_local="$HOME/.spf13-vim-local/"
+
+echo "Symlinking config files to home directory"
+ln -s $endpath_local/.vimrc.local $HOME/.vimrc.local
+ln -s $endpath_local/.vimrc.bundles.local $HOME/.vimrc.bundles.local
+ln -s $endpath_local/.gvimrc.local $HOME/.gvimrc.local
+ln -s $endpath_local/.jshintrc $HOME/.jshintrc
+
+################################
 
 endpath="$HOME/.spf13-vim-3"
 
