@@ -1,0 +1,3 @@
+" Filetype specific commands {
+    au BufRead,BufNewFile *.ascx set filetype=html      " Load ascx files as HTML
+" }
