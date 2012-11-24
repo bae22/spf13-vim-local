@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ### Added by bae22 - local config ####
-endpath_local="$HOME/.spf13-vim-local/"
+endpath_local="$HOME/.spf13-vim-local"
 
 echo "Symlinking config files to home directory"
 ln -s $endpath_local/.vimrc.local $HOME/.vimrc.local
